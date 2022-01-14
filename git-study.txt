@@ -1,6 +1,6 @@
 [출처]
 1.유튜버 동빈나
-브랜치추가
+브랜치추가 paul
 1.원격저장소 생성 : github에 계정생성(github.com에서 계정 생성)
 2.로컬PC에서 git 설치 : git프로그램은 git-scm.com에서 다운로드
 3.git프로그램 설치유무 및 버전확인 : (command prompt)git --version명령어 실행
