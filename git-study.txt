@@ -3,10 +3,10 @@
 브랜치추가 paul
 1.원격저장소 생성 : github에 계정생성(github.com에서 계정 생성)
 2.로컬PC에서 git 설치 : git프로그램은 git-scm.com에서 다운로드
-3.git프로그램 설치유무 및 버전확인 : (command prompt)git --version명령어 실행
+3.git프로그램 설치유무 및 버전확인 : git --version
 4.git환경설정 :(실행 안해도 상관없음) 
-	(command prompt)git config --global user.name github계정 이름
-	(command prompt)git config --global user.email github계정 이메일
+git config --global user.name github계정 이름
+git config --global user.email github계정 이메일
 5.github remote repository와 연동할 local repository폴더생성 : 
 	C드라이브 또는 D드라이브에 local repository를 사용할 폴더생성
 6.github의 clone복사를 통한 로컬저장소와 원격저장소 연결 : 
@@ -14,31 +14,33 @@
 	github의 clone주소를 복사하여 아래와 같은 명령 수행
 (command prompt)git clone https://github.com/paulchung74/github_test.git
 7.local repository에서 생성 및 수정한 파일 remote에 적용하기
-	(command prompt)git add new-file
-	(command prompt)git commit -m "주석내용"
-	(command prompt)git push
+git add new-file
+git commit -m "주석내용"
+git push
 8.local repository에서 파일삭제하고 remote repository에 적용하기
-	(command prompt)git rm removed file
-	(command prompt)git commit -m "주석내용"
-	(command prompt)git push
+git rm removed file
+git commit -m "주석내용"
+git push
 9.remote repository에서 수정 및 변경된 파일을 working directory에 적용하기
-	(command prompt)git pull
+git pull
 10.working directory에 한개의 파일을 staging area로 파일을 올리는 명령어
-	(command prompt)git add 파일명
+git add 파일명
 11.수정한 모든 파일들을 staging area에 올리는 명령어
-	(command prompt)git add .
+git add .
 12.staging area에 파일을 working directory로 내리는 명령어
-	(command prompt)git reset 파일명
+git reset 파일명
 13.local directory에 상태확인
-	(command prompt)git status
+git status
 14.수정한 파일을 수정 이전상태로 되돌리는 명령어
-	(command prompt)git checkout -- 파일명
+git checkout -- 파일명
 15.commit log확인 명령어
-	(command prompt)git log
+git log
 16.특정 commit시점으로 원상복귀시키는 명령어
-	(command prompt)git reset --hard 특정commit 해쉬코드 입력
+git reset --hard 특정commit 해쉬코드 입력
 17.강제로 push하는 명령어
-	(command prompt)git push -f
+git push -f
+18.git환경설정확인하기
+git config --list
 	
 
 	
